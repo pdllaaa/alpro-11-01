@@ -15,16 +15,16 @@ Pada program Go **Package main** digunakan sebagai penanda bahwa file tersebut m
 #### 2. Koding, Kompilasi, dan Eksekusi Go
 Program Go ditulis menggunakan penyunting teks dan disimpan dengan ekstensi **.go**. Satu program lengkap dapat terdiri dari beberapa file **.go** selama file-file tersebut berada dalam folder yang sama. Setelah program selesai dibuat, program dapat di kompilasi menggunakan perintah **go build** atau **go build file.go**. Jika proses kompilasi berhasil, akan terbentuk program yang dapat dijalankan. Go juga memiliki beberapa perintah lain seperti **go fmt** untuk merapikan format kode dan **go clean** untuk membersihkan file hasil kompilasi.
 
-### 3. Variabel dan Tipe Data
+#### 3. Variabel dan Tipe Data
 Variabel digunakan untuk menyimpan data yang akan digunakan dalam program. Setiap variabel memiliki tipe data sesuai dengan jenis data yang disimpan. Dalam praktikum ini digunakan beberapa tipe data, seperti int untuk menyimpan bilangan bulat dan float64 untuk menyimpan bilangan yang memiliki angka desimal. Contohnya, pada kode konversi suhu digunakan float64 karena suhu dapat memiliki nilai desimal, sedangkan pada program pecahan uang digunakan int karena jumlah uang yang dihitung berupa bilangan bulat.
 
-### 4. Input dan Output
+#### 4. Input dan Output
 Input digunakan untuk memasukkan data ke dalam program, sedangkan output digunakan untuk menampilkan hasil dari proses yang dilakukan. Pada bahasa pemrograman Go, input dapat dilakukan menggunakan fmt.Scan() dan fmt.Scanln(). Sementara itu, fmt.Println() digunakan untuk menampilkan hasil ke layar. Contohnya, pengguna memasukkan jumlah hari, kemudian program memprosesnya dan menampilkan hasil berupa tahun, bulan, minggu, dan hari.
 
-### 5. Operator Aritmatika
+#### 5. Operator Aritmatika
 Operator aritmatika digunakan untuk melakukan perhitungan dalam program. Operator yang digunakan dalam praktikum ini adalah penjumlahan (+), pengurangan (-), perkalian (*), pembagian (/), dan sisa bagi (%). Operator tersebut digunakan sesuai dengan kebutuhan program, seperti menghitung konversi suhu, pecahan uang, dan jumlah hari.
 
-### 6. Pembagian dan Sisa Bagi
+#### 6. Pembagian dan Sisa Bagi
 Pembagian (/) digunakan untuk mendapatkan hasil pembagian dua bilangan, sedangkan sisa bagi (%) digunakan untuk mendapatkan sisa dari pembagian. Kedua operator ini dapat digunakan secara bersamaan untuk memecah suatu nilai menjadi beberapa bagian. Contohnya pada program konversi jumlah hari, jumlah hari dibagi dengan 360 untuk mendapatkan jumlah tahun. Setelah itu, sisa pembagiannya digunakan untuk menghitung bulan, minggu, dan hari.
 
 ## Guided
